@@ -1,20 +1,90 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tushar Prakash Raut — Portfolio
 
-# Run and deploy your AI Studio app
+A modern, responsive personal portfolio built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS v4**. Features smooth animations powered by **Motion (Framer Motion)**.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/a4066c6d-9abc-44cc-aac6-ecef11fd49ba
+## 🔗 Live Demo
 
-## Run Locally
+> Deploy on Vercel / Netlify and add your link here.
 
-**Prerequisites:**  Node.js
+---
 
+## 👤 About
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Portfolio of **Tushar Prakash Raut** — Final-year B.Sc. Computer Science student, Frontend Developer, UI/UX Designer, and NCC Junior Under Officer (JUO).
+
+---
+
+## 🚀 Tech Stack
+
+- React 19 + TypeScript
+- Vite 6
+- Tailwind CSS v4
+- Motion (Framer Motion)
+- Lucide React Icons
+
+---
+
+## 📁 Project Structure
+
+```
+├── public/
+│   ├── photo.png          # Profile photo
+│   ├── nccportal.png      # NCC Portal project screenshot
+│   ├── bike.webp          # Bike Price Prediction screenshot
+│   └── RESUMEnew.pdf      # Downloadable resume
+├── src/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Education.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚙️ Run Locally
+
+**Prerequisites:** Node.js 18+
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/tusharr135/newPortfolio.git
+cd newPortfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Start dev server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Output will be in the `dist/` folder.
+
+---
+
+## 📬 Contact
+
+- Email: tusharraut819@gmail.com
+- GitHub: [github.com/tusharr135](https://github.com/tusharr135)
+- LinkedIn: [linkedin.com/in/tushar-raut-bb0637370](https://www.linkedin.com/in/tushar-raut-bb0637370/)
