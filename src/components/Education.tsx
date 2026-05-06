@@ -26,7 +26,7 @@ export const EducationAndCertifications = () => {
                     </p>
                   </div>
                   <div className="glass px-3 py-1 rounded-lg text-sm font-bold text-primary-400">
-                    2021 - 2024
+                    2023 - 2026
                   </div>
                 </div>
                 <div className="flex items-center gap-6 mt-6">
@@ -46,7 +46,7 @@ export const EducationAndCertifications = () => {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: Trophy, label: "NCC JUO Leadership", color: "text-orange-500" },
-                  { icon: Award, label: "State Level Athlete", color: "text-blue-500" },
+                  { icon: Award, label: "Athlete", color: "text-blue-500" },
                   { icon: Star, label: "Top Rank Cricketer", color: "text-yellow-500" },
                   { icon: Award, label: "Event Coordinator", color: "text-pink-500" }
                 ].map((item, i) => (
