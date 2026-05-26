@@ -92,7 +92,7 @@ export const Hero = () => {
             >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-primary-500/20 flex items-center justify-center text-primary-400">
-                  <span className="font-bold">8.2</span>
+                  <span className="font-bold">8.60</span>
                 </div>
                 <div>
                   <div className="text-[10px] text-slate-400 uppercase font-bold tracking-widest leading-none">CGPA</div>
